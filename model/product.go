@@ -7,7 +7,7 @@ type Product struct {
 	Id          string `json:"id"`
 	Name        string `json:"product_name"`
 	Description string `json:"product_desc"`
-	Location    string `json:"produc_location"`
+	Location    string `json:"product_location"`
 	Price       int    `json:"price"`
 	Sales       []Sale `json:"sales"`
 }
