@@ -32,3 +32,6 @@ type TypeSale struct {
 	Disc    float64   `json:"discount"`
 	EndDate time.Time `json:"end_date"`
 }
+
+var Products []Product = []Product{}
+var Sales []Sale = []Sale{}
